@@ -1,3 +1,88 @@
-/*
- * Estilos de tu proyecto
- */
+* {
+  /*box-sizing: border-box;*/
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 10px;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+#nav-bar {
+  display: flex;
+  align-items: center;
+  background-color: #2C3E50;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+#nav-bar .container {
+  display: flex;
+  width: 100%;
+  background-color: inherit;
+  justify-content: space-between;
+  padding: 0 50px;
+}
+
+#nav-bar .brand{
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+#nav-bar .brand a{
+  text-decoration: none;
+  color: #FFFFFF;
+  padding: 15px;
+  font-weight: bold;
+}
+
+#nav-bar .menu {
+
+}
+
+#nav-bar .menu ul {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+#nav-bar .menu li{
+  display: inline-block;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+#nav-bar .menu .link{
+  background-color: transparent;
+  text-decoration: none;
+  padding: 15px;
+}
+
+/*Menu Inicial*/
+.nav-little {
+  height: 75px;
+}
+
+.nav-little .brand{
+  font-size: 2.1rem;
+  background-color: transparent;
+}
+
+.nav-little .menu .link{
+  color: #FFFFFF;
+}
+
+.nav-little .menu .link:hover{
+  color: #18BC9C;
+}
