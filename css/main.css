@@ -69,9 +69,21 @@ p, button {
 }
 
 #nav-bar .menu .link{
-  background-color: transparent;
   text-decoration: none;
   padding: 15px;
+  color: #FFFFFF;
+}
+
+#nav-bar .menu .link-no-current{
+  background-color: transparent;
+}
+
+#nav-bar .menu .link-current{
+  background-color: #18BC9C;
+}
+
+#nav-bar .menu .link:hover{
+  color: #18BC9C;
 }
 
 /*Menu Inicial*/
@@ -84,13 +96,14 @@ p, button {
   background-color: transparent;
 }
 
-.nav-little .menu .link{
-  background-color: transparent;
-  color: #FFFFFF;
+/*Menu Big*/
+.nav-big {
+  height: 100px;
 }
 
-.nav-little .menu .link:hover{
-  color: #18BC9C;
+.nav-big .brand{
+  font-size: 2.8rem;
+  background-color: transparent;
 }
 
 /*Presentación*/
@@ -100,12 +113,12 @@ header {
   background-color: #18BC9C;
   text-align: center;
   color: #FFFFFF;
-  padding-top: 100px;
+  padding-top: 200px;
   padding-bottom: 100px;
 }
 
 header .profile {
-  /*padding-top: 25px;*/
+
 }
 
 header .profile img{
